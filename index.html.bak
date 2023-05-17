@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Countries I have visited.</title>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-language/v1.0.0/mapbox-gl-language.js'></script>
+
+  <!-- css -->
+  <link href="countries.css" rel="stylesheet">
+
+
+</head>
+<body>
+  <div id='map'></div>
+
+  
+  <button id="btn-spin">Rotate</button>
+
+  <script src="countries.js"></script>
+
+  <div id ="menu">
+
+  <h2 style="color:white">Map of Onur</h2>
+
+  <p>The countries I've visited are highlighted in <span style="color:#4ee44e">green</span>. The map also shows the universities I attended for my education.</p>
+
+  </div>
+
+
+
+</body>
+</html>
